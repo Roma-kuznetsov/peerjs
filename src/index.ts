@@ -1,3 +1,7 @@
 import { PeerServer } from "peer";
 
-PeerServer({ port: 9000, path: "/" });
+PeerServer({
+  port: 9000,
+  path: "/",
+  proxied: true
+});
